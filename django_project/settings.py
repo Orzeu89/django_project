@@ -122,6 +122,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/media/'
+
 CRISPY_TEMPALTE_PACK = 'bootstrap4'
 
 LOGIN_REDIRECT_URL = 'blog-home'
