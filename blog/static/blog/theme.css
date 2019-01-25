@@ -1,0 +1,7 @@
+body {background-color: rgb(188, 213, 241);}
+.navbar {background-color: purple;}
+.nav-item:hover{
+  color: #fff;
+  background-color: rgb(188, 213, 241);
+  border-color: #285e8e; /*set the color you want here*/
+}
