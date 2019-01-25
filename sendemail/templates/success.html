@@ -1,6 +1,10 @@
 {% extends "blog/base.html" %}
 {% block content %}
-<h1>Contact Us</h1>
-<p>Success! Thank you for your message.</p>
-</form>
+<div class="content-section">
+    {% csrf_token %}
+    <fieldset class="form-group">
+      <legend class="border-bottom mb-4">Send an e-mail</legend>
+      Success! Thank you for your message.
+    </fieldset>
+</div>
 {% endblock content %}
